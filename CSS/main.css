@@ -1,0 +1,19 @@
+:root{
+    --font-size: 15px;
+
+    --accent-violet: hsl(277, 64%, 61%);
+    --card-bg-dark-blue: hsl(244, 38%, 16%);
+    --main-bg-dark-blue: hsl(233, 47%, 7%);
+
+    --neutral-white: hsl(0, 0%, 100%);
+    --trans-white-paragraph: hsla(0, 0%, 100%, 0.75);
+    --trans-white-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    background-color: var(--main-bg-dark-blue);
+    color: var(--neutral-white);
+    font-size: var(--font-size);
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
